@@ -1,0 +1,23 @@
+{
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaVersion": 5
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "jquery": false
+    },
+    "rules": {
+        "no-unused-vars": 1,
+        "no-console": 0,
+        "quotes": [2, "single"],
+        "max-len": 0,
+        "no-var": 0,
+        "prefer-arrow-callback": 0,
+        "func-names": 0,
+        "prefer-template": 0,
+        "radix": 0,
+        "strict": 0
+    }
+}
